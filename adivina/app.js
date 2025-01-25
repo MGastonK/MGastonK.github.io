@@ -1,7 +1,7 @@
 let numeroSecreto = 0;
 let intentos = 0;
 let listaNumerosSorteados = [];
-let numeroMaximo = 30;
+let numeroMaximo = 15;
 
 
 
@@ -54,7 +54,7 @@ function generarNumeroSecreto() {
 }
 
 function condicionesIniciales() {
-    asignarTextoElemento('h1','Hola Vrinda y Radha!');
+    asignarTextoElemento('h1','Adivina el Número Secreto!');
     asignarTextoElemento('p',`Indica un número del 1 al ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
